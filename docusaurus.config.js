@@ -107,9 +107,27 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'web',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Web',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'server',
+            position: 'left',
+            label: 'Server',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'git',
+            position: 'left',
+            label: 'Git',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'markdown',
+            position: 'left',
+            label: 'Markdown',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
