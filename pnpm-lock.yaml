@@ -4,6 +4,9 @@ dependencies:
   '@docusaurus/core':
     specifier: 3.5.2
     version: registry.npmmirror.com/@docusaurus/core@3.5.2(@docusaurus/types@3.5.2)(@mdx-js/react@3.0.0)(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)(typescript@5.6.3)
+  '@docusaurus/plugin-vercel-analytics':
+    specifier: ^3.5.2
+    version: registry.npmmirror.com/@docusaurus/plugin-vercel-analytics@3.5.2(@mdx-js/react@3.0.0)(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)(typescript@5.6.3)
   '@docusaurus/preset-classic':
     specifier: 3.5.2
     version: registry.npmmirror.com/@docusaurus/preset-classic@3.5.2(@algolia/client-search@5.11.0)(@mdx-js/react@3.0.0)(@types/react@18.3.12)(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)(search-insights@2.17.2)(typescript@5.6.3)
@@ -2383,6 +2386,47 @@ packages:
       - webpack-cli
     dev: false
 
+  registry.npmmirror.com/@docusaurus/plugin-vercel-analytics@3.5.2(@mdx-js/react@3.0.0)(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)(typescript@5.6.3):
+    resolution: {integrity: sha512-8PyH3nWgV011cxeMJmm3NMYvjume1c7JAMhGqYGQbvBj1PxMFPw12ciIXtxFukgAH0qIIQigjvn9Gcv5Bq8KNQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@docusaurus/plugin-vercel-analytics/-/plugin-vercel-analytics-3.5.2.tgz}
+    id: registry.npmmirror.com/@docusaurus/plugin-vercel-analytics/3.5.2
+    name: '@docusaurus/plugin-vercel-analytics'
+    version: 3.5.2
+    engines: {node: '>=18.0'}
+    peerDependencies:
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    dependencies:
+      '@docusaurus/core': registry.npmmirror.com/@docusaurus/core@3.5.2(@docusaurus/types@3.5.2)(@mdx-js/react@3.0.0)(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)(typescript@5.6.3)
+      '@docusaurus/logger': registry.npmmirror.com/@docusaurus/logger@3.5.2
+      '@docusaurus/types': registry.npmmirror.com/@docusaurus/types@3.5.2(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)
+      '@docusaurus/utils': registry.npmmirror.com/@docusaurus/utils@3.5.2(@docusaurus/types@3.5.2)(typescript@5.6.3)
+      '@docusaurus/utils-validation': registry.npmmirror.com/@docusaurus/utils-validation@3.5.2(@docusaurus/types@3.5.2)(typescript@5.6.3)
+      '@vercel/analytics': registry.npmmirror.com/@vercel/analytics@1.3.2(react@18.0.0)
+      react: registry.npmmirror.com/react@18.0.0
+      react-dom: registry.npmmirror.com/react-dom@18.0.0(react@18.0.0)
+      tslib: registry.npmmirror.com/tslib@2.8.0
+    transitivePeerDependencies:
+      - '@mdx-js/react'
+      - '@parcel/css'
+      - '@rspack/core'
+      - '@swc/core'
+      - '@swc/css'
+      - acorn
+      - bufferutil
+      - csso
+      - debug
+      - esbuild
+      - eslint
+      - lightningcss
+      - next
+      - supports-color
+      - typescript
+      - uglify-js
+      - utf-8-validate
+      - vue-template-compiler
+      - webpack-cli
+    dev: false
+
   registry.npmmirror.com/@docusaurus/preset-classic@3.5.2(@algolia/client-search@5.11.0)(@mdx-js/react@3.0.0)(@types/react@18.3.12)(acorn@8.14.0)(react-dom@18.0.0)(react@18.0.0)(search-insights@2.17.2)(typescript@5.6.3):
     resolution: {integrity: sha512-3ihfXQ95aOHiLB5uCu+9PRy2gZCeSZoDcqpnDvf3B+sTrMvMTr8qRUzBvWkoIqc82yG5prCboRjk1SVILKx6sg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@docusaurus/preset-classic/-/preset-classic-3.5.2.tgz}
     id: registry.npmmirror.com/@docusaurus/preset-classic/3.5.2
@@ -3521,6 +3565,24 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz}
     name: '@ungap/structured-clone'
     version: 1.2.0
+
+  registry.npmmirror.com/@vercel/analytics@1.3.2(react@18.0.0):
+    resolution: {integrity: sha512-n/Ws7skBbW+fUBMeg+jrT30+GP00jTHvCcL4fuVrShuML0uveEV/4vVUdvqEVnDgXIGfLm0GXW5EID2mCcRXhg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vercel/analytics/-/analytics-1.3.2.tgz}
+    id: registry.npmmirror.com/@vercel/analytics/1.3.2
+    name: '@vercel/analytics'
+    version: 1.3.2
+    peerDependencies:
+      next: '>= 13'
+      react: ^18.0 || ^19.0 || ^19.0.0-rc
+    peerDependenciesMeta:
+      next:
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      react: registry.npmmirror.com/react@18.0.0
+      server-only: registry.npmmirror.com/server-only@0.0.1
+    dev: false
 
   registry.npmmirror.com/@webassemblyjs/ast@1.12.1:
     resolution: {integrity: sha512-EKfMUOPRRUTy5UII4qJDGPpqfwjOmZ5jeGFwid9mnoqIFK+e0vqoi1qH56JpmZSzEL53jKnNzScdmftJyG5xWg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@webassemblyjs/ast/-/ast-1.12.1.tgz}
@@ -10039,6 +10101,12 @@ packages:
       send: registry.npmmirror.com/send@0.19.0
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  registry.npmmirror.com/server-only@0.0.1:
+    resolution: {integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/server-only/-/server-only-0.0.1.tgz}
+    name: server-only
+    version: 0.0.1
     dev: false
 
   registry.npmmirror.com/set-function-length@1.2.2:

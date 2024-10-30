@@ -34,6 +34,16 @@ const config = {
     locales: ['zh-CN'],
   },
 
+  plugins: [
+    [
+      'vercel-analytics',
+      {
+        debug: true,
+        mode: 'auto',
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
