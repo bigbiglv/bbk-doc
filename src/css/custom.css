@@ -28,3 +28,85 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/** 魔法注释行样式 */
+/* 基本样式 */
+.code-block-line {
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  position: relative;
+}
+.code-block-line::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 12px;
+}
+/* 隐藏相邻元素的伪元素 */
+.code-block-line + .code-block-line::after {
+  content: none;
+}
+
+/** 错误行 */
+.code-block-error-line {
+  background-color: #ff000020;
+}
+
+.code-block-error-line::after {
+  content: '❗️';
+}
+
+/** 正确行 */
+.code-block-success-line {
+  background-color: #00ff0020;
+}
+
+.code-block-success-line::after {
+  content: '✔️';
+}
+
+/** 推荐行 */
+.code-block-best-line {
+  background-color: #00ff0020;
+}
+
+.code-block-best-line::after {
+  /*content: '🙂';*/
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+  background-image: url("../../static/img/emoji/best.webp");
+}
+
+/** 常规行 */
+.code-block-normal-line {
+  background-color: #007bff20;
+}
+
+.code-block-normal-line::after {
+  /*content: '😐';*/
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+  background-image: url("../../static/img/emoji/normal.webp");
+}
+
+/** 不推荐行 */
+.code-block-not-line {
+  background-color: #ffcc0020;
+}
+
+.code-block-not-line::after {
+  /*content: '😒';*/
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+  background-image: url("../../static/img/emoji/not.webp");
+}
+

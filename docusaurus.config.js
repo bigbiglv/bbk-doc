@@ -170,6 +170,33 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        magicComments: [
+          {
+            className: 'code-block-line code-block-error-line',
+            line: 'error',
+            block: {start: 'error-start', end: 'error-end'},
+          },
+          {
+            className: 'code-block-line code-block-success-line',
+            line: 'success',
+            block: {start: 'success-start', end: 'success-end'},
+          },
+          {
+            className: 'code-block-line code-block-best-line ',
+            line: 'best',
+            block: {start: 'best-start', end: 'best-end'},
+          },
+          {
+            className: 'code-block-line code-block-normal-line ',
+            line: 'normal',
+            block: {start: 'normal-start', end: 'normal-end'},
+          },
+          {
+            className: 'code-block-line code-block-not-line ',
+            line: 'not',
+            block: {start: 'not-start', end: 'not-end'},
+          },
+        ]
       },
     }),
 };
