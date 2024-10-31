@@ -76,9 +76,9 @@
 .code-block-best-line::after {
   /*content: '🙂';*/
   content: '';
-  width: 16px;
-  height: 16px;
-  background-size: 16px 16px;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
   background-image: url("../../static/img/emoji/best.webp");
 }
 
@@ -90,9 +90,9 @@
 .code-block-normal-line::after {
   /*content: '😐';*/
   content: '';
-  width: 16px;
-  height: 16px;
-  background-size: 16px 16px;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
   background-image: url("../../static/img/emoji/normal.webp");
 }
 
@@ -104,9 +104,9 @@
 .code-block-not-line::after {
   /*content: '😒';*/
   content: '';
-  width: 16px;
-  height: 16px;
-  background-size: 16px 16px;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
   background-image: url("../../static/img/emoji/not.webp");
 }
 
