@@ -244,7 +244,10 @@ const sidebars = {
     {
       type: 'category',
       label: 'Markdown',
-      items: ['markdown/基本语法'],
+      items: [
+        'markdown/基本语法',
+        'markdown/代码块',
+      ],
     },
   ]
 };
