@@ -19,6 +19,7 @@ const sidebars = {
       type: 'category',
       label: 'Javascript',
       items: [
+        'javascript/Blob&File',
         'javascript/生成器',
         'javascript/迭代器',
         'javascript/Set和Map数据结构',
