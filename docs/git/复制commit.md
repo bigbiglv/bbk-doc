@@ -1,6 +1,6 @@
-# 使用`cherry-pick`复制`commit`
+# 复制`commit`
 
-* 复制（其他分支）的`commit`过来
+* 复制（其他分支也可）的`commit`过来
 * 因为是复制的所以`commit id`会改变，分支合并也会有两条修改一样的记录，但是时间还是保留原先的时间
 * 比如在`master`分支提交一个`commit`修复了某个`bug`，当前`dev`的分支也需要这个`commit`就可以使用`cherry-pick`复制过来
 

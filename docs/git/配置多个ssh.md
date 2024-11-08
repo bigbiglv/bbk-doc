@@ -5,13 +5,13 @@
 1. `cd ~/.ssh/` 到`.ssh`目录下
    * 没有`.ssh`目录先新建 `mkdir ~/.ssh`
 2. 新建第一个`ssh`
-```
-# 此处生成的密钥名称默认是rsa
-ssh-keygen -t rsa -C "xxxxx@qq.com"
-
-# 可以指定密钥名称
-ssh-keygen -t rsa -f ~/.ssh/id_rsa_first -C "xxxxx@qq.com"
-```
+   ```
+   # 此处生成的密钥名称默认是rsa 回车可修改文件名
+   ssh-keygen -t rsa -C "xxxxx@qq.com"
+   
+   # 可以指定密钥名称 （貌似失效了）
+   ssh-keygen -t rsa -f ~/.ssh/id_rsa_first -C "xxxxx@qq.com"
+   ```
 3. 然后到`c`盘用户文件夹下面的`.ssh`文件中找到`id_rsa_first.pub`文件，使用记事本打开复制全部内容，添加到`git`账号的`ssh`列表中
 
 4. 重复以上步骤生成第二个密钥`id_rsa_sec`
