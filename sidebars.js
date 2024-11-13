@@ -19,6 +19,17 @@ const sidebars = {
       type: 'category',
       label: 'Javascript',
       items: [
+        {
+          type: 'category',
+          label: '设计模式',
+          items: [
+            'javascript/设计模式/发布订阅模式',
+            'javascript/设计模式/观察者模式',
+            'javascript/设计模式/单例模式',
+            'javascript/设计模式/工厂模式',
+            'javascript/设计模式/策略模式',
+          ]
+        },
         'javascript/Blob&File',
         'javascript/生成器',
         'javascript/迭代器',
@@ -186,6 +197,7 @@ const sidebars = {
       type: 'category',
       label: '网络',
       items: [
+        '网络/浏览器缓存',
         '网络/常见请求体',
         '网络/资源和URI',
         '网络/预检请求',
@@ -248,6 +260,15 @@ const sidebars = {
       items: [
         'markdown/基本语法',
         'markdown/代码块',
+      ],
+    },
+  ],
+  interview: [
+    {
+      type: 'category',
+      label: '面试题',
+      items: [
+        '面试题/浏览器',
       ],
     },
   ]
