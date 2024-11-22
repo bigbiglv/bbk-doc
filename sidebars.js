@@ -197,7 +197,8 @@ const sidebars = {
       type: 'category',
       label: '网络',
       items: [
-        '网络/浏览器缓存',
+        '网络/http缓存策略',
+        '网络/http版本',
         '网络/常见请求体',
         '网络/资源和URI',
         '网络/预检请求',
@@ -268,7 +269,7 @@ const sidebars = {
       type: 'category',
       label: '面试题',
       items: [
-        '面试题/浏览器',
+        '面试题/网络',
       ],
     },
   ]

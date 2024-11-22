@@ -114,6 +114,12 @@ const config = {
             position: 'left',
             label: 'Markdown',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'interview',
+            position: 'left',
+            label: '面试题',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
