@@ -1,4 +1,6 @@
-# 数据格式
+# `Blob` 和 `File`
+
+![流程](./images/Blob&file.svg "流程")
 
 ## `Blob` (`Binary Large Object`)
 - 一个**不可变**的高层次的二进制数据封装的**二进制容器**（只读）
@@ -80,7 +82,8 @@ input.addEventListener('change', function(event) {
   reader.readAsDataURL(file);
 });
 ```
-
+:::tip 截取`base64`后的内容文本，通过 `new Blob new File` 构造函数来转回对应的格式
+:::
 ### `URL.createObjectURL`
 - 创建临时的`MediaStream` `MediaSource ` `Blob` `File`对象的`url`,指向对应的对象
 - `Blob` 数据如果没有明确设置对应的 `MIME` 类型只能由浏览器推断可能会导致在使用如 `img` 标签展示错误
