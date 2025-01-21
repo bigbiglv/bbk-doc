@@ -31,6 +31,8 @@ const sidebars = {
           ]
         },
         'javascript/Blob&File',
+        'javascript/栈和队列',
+        'javascript/链表',
         'javascript/生成器',
         'javascript/迭代器',
         'javascript/Set和Map数据结构',
