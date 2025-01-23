@@ -11,7 +11,6 @@ const config = {
   title: 'bbk',
   tagline: '笔记',
   favicon: 'img/favicon.ico',
-
   // Set the production url of your site here
   url: 'https://bbk-doc.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -25,6 +24,7 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  themes: ['@docusaurus/theme-live-codeblock'],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
