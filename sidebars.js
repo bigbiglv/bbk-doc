@@ -230,6 +230,14 @@ const sidebars = {
         'nestjs/模块',
         'nestjs/中间件',
         'nestjs/异常过滤器',
+        {
+          type: 'category',
+          label: '功能',
+          items: [
+            'nestjs/功能/文件管理模块',
+            'nestjs/功能/SSE',
+          ]
+        },
       ],
     },
   ],
