@@ -51,6 +51,11 @@
 }
 
 /** 错误行 */
+.code-block-info-line {
+  background-color: #318ca920;
+}
+
+/** 错误行 */
 .code-block-error-line {
   background-color: #ff000020;
 }

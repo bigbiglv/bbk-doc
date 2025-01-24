@@ -178,6 +178,11 @@ const config = {
         darkTheme: prismThemes.dracula,
         magicComments: [
           {
+            className: 'code-block-line code-block-info-line',
+            line: 'info',
+            block: {start: 'info-start', end: 'info-end'},
+          },
+          {
             className: 'code-block-line code-block-error-line',
             line: 'error',
             block: {start: 'error-start', end: 'error-end'},
