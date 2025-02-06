@@ -236,6 +236,7 @@ const sidebars = {
           items: [
             'nestjs/功能/文件管理模块',
             'nestjs/功能/SSE',
+            'nestjs/功能/Redis',
           ]
         },
       ],
