@@ -21,6 +21,13 @@ const sidebars = {
       items: [
         {
           type: 'category',
+          label: '功能案例',
+          items: [
+            'javascript/功能案例/文件上传',
+          ]
+        },
+        {
+          type: 'category',
           label: '设计模式',
           items: [
             'javascript/设计模式/发布订阅模式',
