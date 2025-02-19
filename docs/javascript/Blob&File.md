@@ -1,6 +1,6 @@
 # `Blob` 和 `File`
 
-![流程](./images/Blob&file.svg "流程")
+![流程](./images/Blob&file.png "流程")
 
 ## `Blob` (`Binary Large Object`)
 - 一个**不可变**的高层次的二进制数据封装的**二进制容器**（只读）
