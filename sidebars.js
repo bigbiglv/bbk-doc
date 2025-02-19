@@ -241,7 +241,7 @@ const sidebars = {
           type: 'category',
           label: '功能',
           items: [
-            'nestjs/功能/文件管理模块',
+            'nestjs/功能/文件',
             'nestjs/功能/SSE',
             'nestjs/功能/Redis',
           ]
