@@ -291,6 +291,15 @@ const sidebars = {
         '面试题/网络',
       ],
     },
+  ],
+  leetcode: [
+    {
+      type: 'category',
+      label: 'leetcode',
+      items: [
+        'leetcode/88合并两个有序数组',
+      ],
+    },
   ]
 };
 

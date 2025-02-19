@@ -120,6 +120,12 @@ const config = {
             position: 'left',
             label: '面试题',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'leetcode',
+            position: 'left',
+            label: 'leetcode',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
