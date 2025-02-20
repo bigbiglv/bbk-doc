@@ -299,6 +299,7 @@ const sidebars = {
       label: 'leetcode',
       items: [
         'leetcode/88合并两个有序数组',
+        'leetcode/27移除元素',
       ],
     },
   ]
