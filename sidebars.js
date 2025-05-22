@@ -37,6 +37,9 @@ const sidebars = {
             'javascript/设计模式/策略模式',
           ]
         },
+        'javascript/基础',
+        'javascript/类型转换',
+        'javascript/比较',
         'javascript/Blob&File',
         'javascript/栈和队列',
         'javascript/链表',
@@ -288,6 +291,7 @@ const sidebars = {
       type: 'category',
       label: '面试题',
       items: [
+        '面试题/基础',
         '面试题/网络',
         '面试题/手写题',
       ],
