@@ -1,4 +1,9 @@
-# [`http` 缓存](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Guides/Caching)
+# `http` 缓存
+
+## 官方文档
+
+- [mdn](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching)
+- [rfc9111](https://httpwg.org/specs/rfc9111.html)
 
 ## 缓存策略
 
@@ -6,6 +11,7 @@
 - 涉及参数
   - `Date`: 响应头携带的服务的响应请求时的时间
 - 可分为强缓存和协商缓存, 但是非官方的分类, `RFC9111` 文档 和 `MDN` 文档都没提到
+- 涉及到的 `Date` `Expires` `Last-Modified` 等时间都是使用的 `GMT` 格林威治时间
 
 
 | HTTP 版本 | 强缓存实现方案 | 协商缓存实现方案 | 特点/备注 |
